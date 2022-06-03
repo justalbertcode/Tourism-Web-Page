@@ -1,0 +1,166 @@
+/* ===Alignment.css=== */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline:none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/* ===Alignment.css=== */
+
+/* body{
+	background: #f3f9fa url("img/bg.jpg") repeat;
+	font: 14px/22px Arial;
+	color:  #444;
+} */
+
+a{
+	color:  #0083df;
+}
+a:hover{
+	text-decoration: none;
+}
+h1{
+	font:  normal 26px/26px Arial;
+	margin-bottom: 20px;
+}
+h2{
+	font:  normal 24px/24px Arial;
+	margin-bottom: 20px;
+}
+
+h1,h2,h3{
+	color:  black;
+	
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+
+html,
+body {
+	height: 100%;
+}
+
+
+#wrap {
+	width: 980px;
+	margin: 0 auto;
+	background-color: white;
+	min-height: 100%;
+	position: relative;
+}
+
+
+#header {
+    height: 148px;
+    background: url("../img/header.jpg") left top no-repeat;
+}
+#header .logo{
+	margin-top: 51px;
+	float: left;
+}
+
+#header .contacts{
+	float: right;
+	text-align: right;
+	margin-top: 25px;
+}
+
+#content {
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+#header .contacts p{
+	font: bold 18px/14px Arial;
+	color: black;
+}
+
+.green{
+	color:  #1d8b15;
+}
+
+.gray{
+	color:  #666;
+}
+
+#header .contacts p .green {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#header .contacts p .gray {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+#leftcol {
+	width: 180px;
+	float: left;
+}
+
+
+#rightcol {
+	width: 180px;
+	float: right;
+}
+
+
+#centercol {
+	overflow: hidden;
+}
+
+#main {
+	overflow: hidden;
+}
+
+
+#footer {
+	height: 50px;
+	background-color: #ddd;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.content {
+	padding: 15px;
+}
